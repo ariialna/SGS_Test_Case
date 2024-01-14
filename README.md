@@ -15,3 +15,4 @@ The files attached to this projects are:
 * The screenshot off the Biometrics page taken usinfg the code called 'screenshotBiometrics.png'.
 * A txt file were all the possible errors when using the code will be loggued called 'webdriver_log.txt'.
 * A screenshot that was taken when porpusely occured an error when reaching a certain part of the website called 'Our Servicescreenshot.png'.
+* The doc file with the instructions to do the task called 'Test Case - Tester.docx'.
