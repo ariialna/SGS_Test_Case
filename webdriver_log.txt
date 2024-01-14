@@ -1,0 +1,29 @@
+2024-01-14 10:55:07,046 - ERROR - Error trying to reach Our Services site: Message: invalid selector: Unable to locate an element with the xpath expression // because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//' is not a valid XPath expression.
+  (Session info: chrome=120.0.6099.216); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Stacktrace:
+0   chromedriver                        0x000000010f565cc8 chromedriver + 4844744
+1   chromedriver                        0x000000010f55d243 chromedriver + 4809283
+2   chromedriver                        0x000000010f12b77d chromedriver + 411517
+3   chromedriver                        0x000000010f131c90 chromedriver + 437392
+4   chromedriver                        0x000000010f134407 chromedriver + 447495
+5   chromedriver                        0x000000010f13456c chromedriver + 447852
+6   chromedriver                        0x000000010f17bcee chromedriver + 740590
+7   chromedriver                        0x000000010f17c091 chromedriver + 741521
+8   chromedriver                        0x000000010f1c7ab4 chromedriver + 1051316
+9   chromedriver                        0x000000010f1a5ced chromedriver + 912621
+10  chromedriver                        0x000000010f1c4d42 chromedriver + 1039682
+11  chromedriver                        0x000000010f1a5a63 chromedriver + 911971
+12  chromedriver                        0x000000010f16d1b3 chromedriver + 680371
+13  chromedriver                        0x000000010f16e7ce chromedriver + 686030
+14  chromedriver                        0x000000010f525642 chromedriver + 4580930
+15  chromedriver                        0x000000010f52a9cc chromedriver + 4602316
+16  chromedriver                        0x000000010f50ae11 chromedriver + 4472337
+17  chromedriver                        0x000000010f52b746 chromedriver + 4605766
+18  chromedriver                        0x000000010f4fc39c chromedriver + 4412316
+19  chromedriver                        0x000000010f54b868 chromedriver + 4737128
+20  chromedriver                        0x000000010f54ba1e chromedriver + 4737566
+21  chromedriver                        0x000000010f55ce83 chromedriver + 4808323
+22  libsystem_pthread.dylib             0x00007ff804add1d3 _pthread_start + 125
+23  libsystem_pthread.dylib             0x00007ff804ad8bd3 thread_start + 15
+
