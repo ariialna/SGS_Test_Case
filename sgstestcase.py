@@ -70,10 +70,9 @@ try:
     time.sleep(2)
 
     # Click on "Health Science" in the dropdown menu
-    # *[@id="__next"]/header/div[3]/div/ul/li[2]/ul/li[1]/a
     error = 'Health Science'
     WDwait.until(
-        EC.element_to_be_clickable((By.XPATH, '//'))
+        EC.element_to_be_clickable((By.XPATH, '//*[@id="__next"]/header/div[3]/div/ul/li[2]/ul/li[1]/a'))
         ).click()
 
     # Wait for 2 seconds
